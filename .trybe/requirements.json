@@ -1,0 +1,36 @@
+{
+  "requirements": [
+    {
+      "bonus": false,
+      "description": "1 - Renderize apenas um dos componentes no App por vez",
+      "enabled": true,
+      "identifier": null,
+      "order": 1,
+      "skill_ids": []
+    },
+    {
+      "bonus": false,
+      "description": "2 - Exiba o preview das informações enquanto o usuário cadastra um novo produto",
+      "enabled": true,
+      "identifier": null,
+      "order": 2,
+      "skill_ids": []
+    },
+    {
+      "bonus": false,
+      "description": "3 - Implemente a funcionalidade de cadastrar um novo produto",
+      "enabled": true,
+      "identifier": null,
+      "order": 3,
+      "skill_ids": []
+    },
+    {
+      "bonus": false,
+      "description": "4 - Exiba a lista de produtos cadastrados ao clicar no botão \"Ver produtos\"",
+      "enabled": true,
+      "identifier": null,
+      "order": 4,
+      "skill_ids": []
+    }
+  ]
+}
