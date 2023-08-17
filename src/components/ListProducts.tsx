@@ -4,7 +4,7 @@ import Product from './Product';
 
 type Props = {
   products: ProductWithId[]
-  handleDelete: (() => void)
+  handleDelete: ((id: string) => void)
 };
 
 export default function ListProducts({ products, handleDelete }: Props) {
@@ -17,7 +17,7 @@ export default function ListProducts({ products, handleDelete }: Props) {
           <Product
             key={ product.id }
             productInfo={ product }
-            handleDelete={ handleDelete }
+            handleDelete={ () => handleDelete(String(product.id)) }
           />))}
       </div>
     </main>
